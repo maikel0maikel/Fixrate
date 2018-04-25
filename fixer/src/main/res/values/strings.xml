@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fixer</string>
+    <string name="label_nav">Fixer Assistant</string>
+    <string name="label_update">Update</string>
+    <string name="label_emtpy">No Data please check your Internet</string>
+    <string name="label_intput_error">Please input correct number</string>
+    <string name="label_update_success">Update success</string>
+</resources>

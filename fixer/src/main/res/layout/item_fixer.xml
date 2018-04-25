@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:minHeight="50dp">
+
+    <TextView
+        android:id="@+id/currency_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_nav"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/fixer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="60dp"
+        android:text="@string/label_update"
+        android:textColor="@android:color/black"
+        android:layout_gravity="right|center_vertical"
+        android:paddingRight="8dp"
+        android:textSize="16sp"
+        android:background="@null"
+        android:focusableInTouchMode="true"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:gravity="right"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_gravity="bottom"
+        android:background="#9FB6CD"
+        />
+</FrameLayout>

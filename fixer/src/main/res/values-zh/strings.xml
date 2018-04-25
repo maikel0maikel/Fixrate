@@ -1,0 +1,7 @@
+<resources>
+    <string name="label_nav">汇率助手</string>
+    <string name="label_update">更新</string>
+    <string name="label_emtpy">没有数据哦</string>
+    <string name="label_intput_error">请输入正确的数</string>
+    <string name="label_update_success">更新成功</string>
+</resources>

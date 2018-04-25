@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/main_activity_paddinf"
+    android:background="#CFCFCF"
+    tools:context="com.domobile.html.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_input_hint"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/url_input_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical"
+        android:paddingLeft="@dimen/activity_vertical"
+        android:text="https://tieba.baidu.com"
+        android:background="@drawable/ic_input_url_background"
+        android:minHeight="40dp"
+        android:singleLine="true"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/fack_url_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/view_margin_top"
+        android:background="@drawable/ic_parse_btn_background"
+        android:gravity="center"
+        android:minHeight="40dp"
+        android:text="@string/lable_btn_parse"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="fackUrl"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/view_margin_top">
+
+        <ImageView
+            android:id="@+id/icon_url_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+              />
+    </FrameLayout>
+
+</LinearLayout>

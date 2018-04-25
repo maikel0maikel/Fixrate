@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DoMobile</string>
+    <string name="label_input_hint">Please enter the URL</string>
+    <string name="lable_btn_parse">parse</string>
+    <string name="label_error_url">The URL you entered is illegal. Please check</string>
+    <string name="label_response_error">Error please check</string>
+    <string name="label_can_not_get_image">Can\'t not get Bitmap</string>
+</resources>

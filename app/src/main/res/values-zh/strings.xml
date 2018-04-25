@@ -1,0 +1,7 @@
+<resources>
+    <string name="label_input_hint">请输入网址</string>
+    <string name="lable_btn_parse">解析</string>
+    <string name="label_error_url">您输入的网址不合法，请检查</string>
+    <string name="label_response_error">出错了请检查</string>
+    <string name="label_can_not_get_image">无法获取图片</string>
+</resources>
